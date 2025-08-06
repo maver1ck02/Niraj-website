@@ -1,4 +1,3 @@
-
 // DOM Elements
 const preloader = document.querySelector('.preloader');
 const header = document.querySelector('.header');
