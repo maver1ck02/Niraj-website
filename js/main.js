@@ -84,9 +84,9 @@ backToTopBtn.addEventListener('click', (e) => {
 if (secretBtn) {
     secretBtn.addEventListener('click', function() {
         const states = [
-            {text: 'Click to Unlock 🔓', color: 'white', bg: 'rgba(108, 92, 231, 0.1)'},
-            {text: 'Project So Good, but It\'s Invisible 😂', color: '#fd79a8', bg: 'rgba(253, 121, 168, 0.1)'},
-            {text: 'This could be YOUR project! Let\'s make it happen!', color: '#00cec9', bg: 'rgba(0, 206, 201, 0.1)', action: 'contact'}
+            {text: 'Click to Unlock 🔓', color: 'white', bg: 'rgba(36, 10, 231, 0.1)'},
+            {text: 'Project So Good, but It\'s Invisible 😂', color: '#2e09e7ff', bg: 'rgba(232, 5, 85, 0.1)'},
+            {text: 'This could be YOUR project! Let\'s make it happen!', color: '#00cec9', bg: 'rgba(4, 70, 69, 0.95)', action: 'contact'}
         ];
         
         const currentState = this.dataset.state || 0;
